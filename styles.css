@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    font-weight: 100;
+    font-style: normal;
+    overflow: auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 60px;
+    background-color: #282726;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 30.5px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.hero-banner, .about-me, .experience, .portfolio {
+    width: 100%;
+    padding: 50px 60px;
+}
+
+.about-me h1, .experience h1, .portfolio h1, .footer h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.hero-banner {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    background-color: #54504C;
+}
+
+.image-1 {
+    width: auto;
+    height: 510px;
+    overflow: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.hero-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: space-around;
+    gap: 12px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.hero-banner h4 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 12px 40px;
+    font-size: 18px;
+    background-color: #282726;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-me {
+    background-color: #86817C;
+}
+
+.about-me h1 {
+    color: #FFFFFF;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.image-2 {
+    height: 450px;
+    overflow: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.info {
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 12px;
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 6px;
+}
+
+.info ul {
+    list-style-type: none;
+}
+
+.info ul li {
+    font-weight: 400;
+} 
+
+.experience {
+    color: #282726;
+    background-color: #D6CAB0;
+}
+
+.personal-experience {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    gap: 24px; 
+}
+
+.work-experience .personal, 
+.work-experience .info {
+    color: #282726;
+}
+
+.education .personal, 
+.education .info {
+    color: #282726;
+}
+
+.experience .info {
+    margin-top: 20px;
+}
+
+.info h2 {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.portfolio {
+    color: #FFFFFF;
+    background-color: #54504C;
+}
+
+.portfolio .project {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.project .project-image {
+    background-image: url(./images/not-applicable.jpg);
+    background-position: center;
+    border: none;
+    margin-top: 20px;
+    padding: 120px 120px;
+    overflow: auto;
+    background-color: #FFFFFF;
+}
+
+.footer {
+    width: 100%;
+    padding: 50px 60px 20px 60px;
+    color: #FFFFFF;
+    background-color: #282726;
+}
+
+.footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.footer-info .info {
+    width: 48%;
+    justify-content: normal;
+    gap: 40px;
+}
+
+.personal li {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.name {
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    align-items: self-start;
+    justify-content:space-around;  
+    gap: 10px;
+}
+
+input[type='text'], textarea {
+    width: 100%;
+    border: none;
+    height: 45px;
+    padding: 0 10px;
+    border-radius: 8px;
+} 
+
+#message {
+    height: 100px;
+    padding: 10px;
+}
+
+#email-address, #message {
+    width: 100%;
+}
+
+#btn-contact {
+    color: #282726;
+    background-color: #FFFFFF;
+}
+
+#receive {
+    margin-top: 40px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav {
+        justify-content: space-around;
+    }
+    .hero-info {
+        width: 100%;
+        align-items: center;
+    }
+    .hero-banner .image-1, form, .footer-info .info {
+        width: 100%;  
+        align-items: flex-start;
+    }
+    .hero-info {
+        text-align: center;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 40px; 
+    }
+    button {
+        font-size: 14px;
+    }
+    .footer .footer-info {
+        margin-top: 0;
+    }
+}
