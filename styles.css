@@ -124,6 +124,10 @@ button {
     transition: background-color 0.3s ease;
 }
 
+.hero-banner button:hover {
+	color: #282726;
+	background-color: #FFFFFF;
+}
 .about-me {
     background-color: #86817C;
 }
@@ -295,6 +299,11 @@ input[type='text'], textarea {
 #btn-contact {
     color: #282726;
     background-color: #FFFFFF;
+}
+
+#btn-contact:hover {
+    color: #FFFFFF;
+    background-color: #282726;
 }
 
 #receive {
