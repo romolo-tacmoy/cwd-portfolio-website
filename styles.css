@@ -337,6 +337,9 @@ input[type='text'], textarea {
     .hero-banner h4 {
         text-align: center;
     }
+    .image-1 {
+	height: 600px;
+    }
     .image-1, .hero-info {
 	width: 100%;
 	align-items: center;
