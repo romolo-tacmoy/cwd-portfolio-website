@@ -86,7 +86,7 @@ main {
     width: auto;
     height: 510px;
     overflow: auto;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
     align-items: center;
@@ -326,5 +326,12 @@ input[type='text'], textarea {
     }
     .footer .footer-info {
         margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 841px) {
+    .hero-banner {
+        align-items: center;
+        justify-content: center;
     }
 }
