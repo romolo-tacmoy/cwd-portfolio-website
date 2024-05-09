@@ -329,7 +329,7 @@ input[type='text'], textarea {
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 841px) {
+@media screen and (min-width: 769px) and (max-width: 858px) {
     .hero-banner {
 	align-items: center;
 	justify-content: center;
